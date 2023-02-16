@@ -4,54 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma File</title>
     <link rel="stylesheet" href="style2.css">
+    <title>figma form</title>
 </head>
 <body>
-    <div class="header">Contact Form</div>
-    <section>
-   <form action="" method="post"></form>
-   <div class="first">
-    <p> <label for="Name">Name: <input type="text" name="Enter your Name"
-     id="Name" placeholder="Enter your Name"></label></p>
-    </div>
-   <div class="second">
-     <label for="Username">Username: <input type="text" name="Username" 
-        id="Username" placeholder="Enter your username"></label>
-    </div>
-    <div class="third">
-        <label for="Password">Password: <input type="password" name="Password" 
-            id="Password" placeholder="Enter your Password"></label>
-    </div>
-    <div class="fourth">
-        <label for="Re-type Password">Re-type Password: <input type="password" name="Re-type Password" 
-    id="Re-type Password" placeholder="Enter your Password"></label>
-    </div>
-    <div class="fifth">
-        <label for="Gender">Gender:</label> 
-        <label for="Male">Male <input type="radio" name="Gender" id="Male"></label>
-        <label for="Female">Female <input type="radio" name="Gender" id="Female"></label>
-    </div>
-    <div class="six">
-            <label for="Techie Skill">Techie Skill:</label>
-            <label for="HTML">HTML <input type="checkbox" name="Techie Skill" id="HTML"></label>
-            <label for="CSS">CSS <input type="checkbox" name="Techie Skill" id="CSS"></label>
-            <label for="JavaScript">JavaScript <input type="checkbox" name="Techie Skill" id="JavaScript"></label>
+    <div class="main">
+        <div class="container">
+            <h1>Contact Form</h1>
+            <form action="">
+                <div>
+                    <label for="Name">Name:</label>
+                    <input class="input-style tomi" type="text" placeholder="Enter your Name">
+                </div>   
+                <div>
+                    <label for="">Username:</label>
+                    <input class="input-style tomi1" type="text" placeholder="Enter your username">
+                </div>   
+                <div>
+                    <label for="">Password:</label>
+                    <input class="input-style tomi3" type="password" placeholder="Enter your Password">
+                </div>   
+                <div>
+                    <label for="">Re-type Password:</label>
+                    <input class="input-style" type="password" placeholder="Enter your Password">
+                </div>   
+                <div>
+                    <label for="">Gender:</label>
+                    <input class="tomi8" type="radio" name="gender">
+                    <label class="tomi12" for="">Male</label>
+                    <input type="radio" name="gender">
+                    <label class="tomi12" for="">Female</label>
+                </div>  
+                <div>
+                    <label for="">Techie Skills:</label>
+                    <input class="tomi7" type="checkbox">
+                    <label class="tomi12" for="">HTML</label>
+                    <input type="checkbox">
+                    <label class="tomi12" for="">CSS</label>
+                    <input type="checkbox">
+                    <label class="tomi12" for="">JavaScript</label>
+                </div>    
+                <div>
+                    <label for="">Phone Number:</label>
+                    <input class="input-style tomi5" type="number" placeholder="Enter your address">
+                </div> 
+                <div>
+                    <label for="">Email:</label>
+                    <input class="input-style tomi6" type="email" placeholder="Enter your email">
+                </div>     
+                <div>
+                    <label for="">College:</label>
+                    <select class="tomi9" name="" id="">
+                        <option value="">Select a College</option>
+                        <option value="">college2</option>
+                    </select>
+                </div>
+                <div class="btn">
+                    <input class="input-style tomi11" type="submit" value="Submit">
+                </div>
+            </form>
+
         </div>
-    <div class="seven">
-                <label for="Phone Number">Phone Number: <input type="number" name="Phone Number"
-         id="Phone Number" placeholder="Enter your address"></label>
-        </div>
-    <div class="eight">
-            <label for="Email">Email: <input type="email" name="Email" 
-                id="Email" placeholder="Enter your Email"></label>
-        </div>
-    <div class="nine">
-        <label for="College">College: <input type="text" name="College" 
-            id="College" placeholder="Enter your College"></label>
     </div>
-    </section>
-<div class="ten">
-    <input type="submit" value="Submit">
-</div>
+    
+</body>
 </html>

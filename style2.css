@@ -1,39 +1,89 @@
-.{
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0; 
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
-body{ border-radius: 4px; position: relative; width: 1134px;
- height: 1189px; background: #FFFFFF; top: -289px; left: auto -495px;}
- .header{ 
-    position: absolute;
-    width: 393px;
-    left:142px; float: left; top: 78px;
-     font-weight: 600; font-size: 64px; line-height: 150%; letter-spacing: 0.005em; color: #000000;}
-.section{
-    display: flex; flex-direction: column; justify-content: center;align-items: flex-start;padding: 0px;
-gap: 48px;position: absolute; width: 716px; height: 824px; left: 142px; top: 217px; 
+.container{
+    padding: 25px 80px;
 }
-.first{ gap: 221px; width: 716px; height: 56px;}
-p{gap: 10px; width: 95px; height: 24px; Top: 16px; font-weight: 600;
-    font-size: 32px;line-height: 24px; color: #000000; } 
-    #name{font-weight: 400;
-        font-size: 16px;
-        line-height: 24px; color: #797979;}
-.second{ width: 155px;
-    height: 24px;}
-.third{}
-.fourth{width: 144px;
-    height: 24px;}
-.fifth{ width: 270px;
-    height: 24px;}
-.six{width: 114px;
-    height: 24px;}
-.seven{width: 191px;
-    height: 24px;}
-.eight{width: 94px;
-    height: 24px;}
-.nine{width: 115px;
-    height: 24px;}
-.ten{position: absolute;width: 400px;height: 56px; left: 454px; top: 1063px; background: #155EEF;
-    border-radius: 4px}
+form div {
+    margin-bottom: 12px;
+}
+
+h1{
+    font-family: "Halant";
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+label{
+    font-family: "Halant";
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.input-style, select{
+    width: 30%; 
+    padding: 10px;
+    margin: 7px 0;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    outline: none;
+}
+
+.tomi{
+    margin-left: 120px;
+}
+
+.tomi1{
+    margin-left: 80px;
+}
+
+.tomi3{
+    margin-left: 85px;
+}
+
+.tomi5{
+    margin-left: 25px;
+}
+
+.tomi6{
+    margin-left: 120px;
+}
+
+.tomi9{
+    margin-left: 110px;
+}
+
+.tomi7{
+    margin-left: 50px;
+}
+
+.tomi8{
+    margin-left: 105px;
+}
+
+.btn{
+    margin-left: 240px;
+}
+
+.tomi11{
+    width: 37%;
+    background-color: #155EEF;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.tomi12{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+}
+
